@@ -1,6 +1,6 @@
 {
   "name": "@xyfebaby/eslint-config-base",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "eslint的基础配置",
   "keywords": [
     "eslint",
@@ -10,7 +10,8 @@
   "license": "MIT",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "rules/*"
   ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
