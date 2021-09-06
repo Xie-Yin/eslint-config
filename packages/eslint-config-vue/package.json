@@ -20,6 +20,10 @@
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xie-Yin/eslint-config.git"
+  },
   "devDependencies": {
     "eslint": "^7.32.0"
   },

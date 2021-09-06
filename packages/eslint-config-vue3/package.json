@@ -15,6 +15,10 @@
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xie-Yin/eslint-config.git"
+  },
   "dependencies": {
     "@xyfebaby/eslint-config-base": "^0.1.0",
     "@xyfebaby/eslint-config-ts": "^0.1.0",
