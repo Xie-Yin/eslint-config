@@ -1,5 +1,5 @@
 {
-  "name": "@mario34/eslint-config-vue",
+  "name": "@xyfebaby/eslint-config-vue",
   "version": "0.1.0",
   "description": "适用于vue2.x项目的eslint配置",
   "keywords": [
@@ -7,7 +7,6 @@
     "eslint-config",
     "vue-eslint"
   ],
-  "author": "Mario34 <zhl.mario34@outlook.com>",
   "homepage": "",
   "license": "MIT",
   "main": "index.js",
@@ -25,7 +24,7 @@
     "eslint": "^7.32.0"
   },
   "dependencies": {
-    "@mario34/eslint-config-base": "^0.1.0",
+    "@xyfebaby/eslint-config-base": "^0.1.0",
     "@vue/eslint-config-standard": "^6.1.0",
     "babel-eslint": "^10.1.0",
     "eslint-plugin-import": "^2.24.2",
@@ -35,6 +34,5 @@
   },
   "peerDependencies": {
     "eslint": ">=7.4.0"
-  },
-  "gitHead": "e18ca56e43007f07b5bd0a8a8aca3005afeea653"
+  }
 }

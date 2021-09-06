@@ -1,17 +1,17 @@
-# `@mario34/eslint-config-vue`
+# `@xyfebaby/eslint-config-vue`
 
 > 适用于ts项目的eslint配置
 
 ## Usage
 
 ```bash
-yarn add @mario34/eslint-config-vue
+yarn add @xyfebaby/eslint-config-vue
 ```
 
 ```js
 // .eslintrc.js 不建议使用简称
 module.exports = {
-  extends: ['@mario34/eslint-config-vue'],
+  extends: ['@xyfebaby/eslint-config-vue'],
 }
 
 ```

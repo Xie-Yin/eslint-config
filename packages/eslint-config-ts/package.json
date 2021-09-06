@@ -1,8 +1,7 @@
 {
-  "name": "@mario34/eslint-config-ts",
+  "name": "@xyfebaby/eslint-config-ts",
   "version": "0.1.0",
   "description": "适用于ts项目的eslint配置",
-  "author": "Mario34 <zhl.mario34@outlook.com>",
   "homepage": "",
   "license": "MIT",
   "main": "index.js",
@@ -17,7 +16,7 @@
     "lint": "eslint . --config=index.js"
   },
   "dependencies": {
-    "@mario34/eslint-config-base": "^0.1.0",
+    "@xyfebaby/eslint-config-base": "^0.1.0",
     "@typescript-eslint/eslint-plugin": "^4.30.0",
     "@typescript-eslint/parser": "^4.30.0"
   },
@@ -28,6 +27,5 @@
   "devDependencies": {
     "eslint": "^7.32.0",
     "typescript": "^4.4.2"
-  },
-  "gitHead": "e18ca56e43007f07b5bd0a8a8aca3005afeea653"
+  }
 }

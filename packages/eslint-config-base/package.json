@@ -1,12 +1,11 @@
 {
-  "name": "@mario34/eslint-config-base",
+  "name": "@xyfebaby/eslint-config-base",
   "version": "0.1.0",
   "description": "eslint的基础配置",
   "keywords": [
     "eslint",
     "eslint-config"
   ],
-  "author": "Mario34 <zhl.mario34@outlook.com>",
   "homepage": "",
   "license": "MIT",
   "main": "index.js",
