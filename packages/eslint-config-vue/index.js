@@ -7,7 +7,16 @@ module.exports = {
   parserOptions: {
     parser: 'babel-eslint',
   },
+  overrides: [
+    {
+      files: ['*.vue'],
+      rules: {
+        'max-len': 'off',
+      },
+    },
+  ],
   rules: {
+    'max-len': ['off'],
     'vue/max-attributes-per-line': [
       2,
       {
