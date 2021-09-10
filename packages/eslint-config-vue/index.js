@@ -1,12 +1,10 @@
 module.exports = {
   root: true,
   env: {
-    node: true,
+    browser: true,
+    es6: true,
   },
   extends: ['plugin:vue/recommended', '@vue/standard', '@xyfebaby/eslint-config-base'],
-  parserOptions: {
-    parser: 'babel-eslint',
-  },
   overrides: [
     {
       files: ['*.vue'],

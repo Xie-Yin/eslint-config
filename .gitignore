@@ -3,4 +3,5 @@ node_modules
 .project
 .idea
 .vscode
-*.lock
+yarn.lock
+package-lock.json

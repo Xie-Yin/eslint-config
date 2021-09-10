@@ -15,6 +15,7 @@
     "react": "eslint -c ./packages/eslint-config-react/index.js ./test/file.tsx"
   },
   "devDependencies": {
+    "eslint": "^7.4.0",
     "lerna": "^4.0.0"
   }
 }
