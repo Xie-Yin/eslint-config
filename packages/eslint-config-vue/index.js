@@ -8,7 +8,7 @@ module.exports = {
     browser: true,
     es6: true,
   },
-  extends: ['plugin:vue/recommended', '@vue/standard', '@xyfebaby/eslint-config-base'],
+  extends: ['plugin:vue/recommended', 'eslint-config-standard', '@xyfebaby/eslint-config-base'],
   overrides: [
     {
       files: ['*.vue'],
