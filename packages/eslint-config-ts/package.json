@@ -2,11 +2,11 @@
   "name": "@xyfebaby/eslint-config-ts",
   "version": "0.1.1",
   "description": "适用于ts项目的eslint配置",
-  "homepage": "",
   "license": "MIT",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "rules/*"
   ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
@@ -15,14 +15,10 @@
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Xie-Yin/eslint-config.git"
-  },
   "dependencies": {
     "@xyfebaby/eslint-config-base": "^0.1.0",
-    "@typescript-eslint/eslint-plugin": "^4.30.0",
-    "@typescript-eslint/parser": "^4.30.0"
+    "@typescript-eslint/eslint-plugin": "4.30.0",
+    "@typescript-eslint/parser": "4.30.0"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0",

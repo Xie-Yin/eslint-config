@@ -1,4 +1,4 @@
-# `@xyfebaby/eslint-config-react`
+# `@mario34/eslint-config-react`
 
 > 适用于 react 项目的 eslint 配置
 
