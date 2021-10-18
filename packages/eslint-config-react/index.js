@@ -2,6 +2,7 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     '@xyfebaby/eslint-config-ts',
+    'plugin:react/jsx-runtime',
   ],
   settings: {
     react: {
