@@ -6,12 +6,9 @@ module.exports = {
     '@xyfebaby/eslint-config-base/rules/style',
     'plugin:@typescript-eslint/recommended',
     ...[
-      './rules/all.js',
+      // './rules/all.js',
       './rules/overrides-eslint.js',
     ].map(require.resolve),
   ],
-  rules: {
-    '@typescript-eslint/explicit-function-return-type': 'off',
-    '@typescript-eslint/no-explicit-any': 'off',
-  },
+  rules: { },
 }

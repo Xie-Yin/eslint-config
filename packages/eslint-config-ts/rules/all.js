@@ -182,7 +182,8 @@ module.exports = {
     // TODO: off @typescript-eslint/no-loss-of-precision
     '@typescript-eslint/no-loss-of-precision': 'off',
     'no-magic-numbers': 'off',
-    '@typescript-eslint/no-magic-numbers': 'error',
+    // TODO: off @typescript-eslint/no-magic-numbers
+    '@typescript-eslint/no-magic-numbers': 'off',
     '@typescript-eslint/no-misused-new': 'error',
     '@typescript-eslint/no-misused-promises': 'error',
     '@typescript-eslint/no-namespace': 'error',
