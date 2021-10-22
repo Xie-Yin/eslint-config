@@ -16,8 +16,6 @@ module.exports = {
   extends: [
     '@vue/typescript',
     'plugin:vue/vue3-recommended',
-    'plugin:@typescript-eslint/recommended',
-    '@xyfebaby/eslint-config-base',
     '@xyfebaby/eslint-config-ts',
   ],
   plugins: ['@typescript-eslint'],
