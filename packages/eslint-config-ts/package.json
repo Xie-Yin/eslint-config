@@ -16,9 +16,9 @@
     "lint": "eslint . --config=index.js"
   },
   "dependencies": {
-    "@xyfebaby/eslint-config-base": "^0.1.0",
-    "@typescript-eslint/eslint-plugin": "4.30.0",
-    "@typescript-eslint/parser": "4.30.0"
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "@xyfebaby/eslint-config-base": "^0.1.0"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0",
