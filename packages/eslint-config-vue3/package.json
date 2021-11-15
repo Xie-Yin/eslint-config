@@ -20,8 +20,8 @@
     "url": "git+https://github.com/Xie-Yin/eslint-config.git"
   },
   "dependencies": {
-    "@xyfebaby/eslint-config-base": "^0.1.0",
-    "@xyfebaby/eslint-config-ts": "^0.2.0",
+    "@xyfebaby/eslint-config-base": "^0.2.0",
+    "@xyfebaby/eslint-config-ts": "^0.3.0",
     "@typescript-eslint/eslint-plugin": "^4.30.0",
     "@vue/eslint-config-typescript": "^7.0.0",
     "eslint-plugin-vue": "^7.17.0"
