@@ -214,7 +214,7 @@ module.exports = {
     // 强制一行的最大长度
     // specify the maximum length of a line in your program
     // https://eslint.org/docs/rules/max-len
-    'max-len': ['error', 100, 2, {
+    'max-len': ['off', 100, 2, {
       ignoreUrls: true,
       ignoreComments: true,
       ignoreRegExpLiterals: true,
