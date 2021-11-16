@@ -135,6 +135,6 @@ module.exports = {
 
     // 要求类型注释周围保持一致的空格
     // Require consistent spacing around type annotations
-    '@typescript-eslint/type-annotation-spacing': ['error', { before: false, after: true }],
+    '@typescript-eslint/type-annotation-spacing': ['error', { before: false, after: true, overrides: { arrow: { before: true, after: true } } }],
   },
 }
